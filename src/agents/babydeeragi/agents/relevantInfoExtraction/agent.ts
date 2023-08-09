@@ -53,7 +53,7 @@ export const relevantInfoExtractionAgent = async (
       openAIApiKey,
       modelName,
       temperature: 0.7,
-      maxTokens: 800,
+      maxTokens: 2000,
       topP: 1,
       stop: ['###'],
     },
